@@ -39,3 +39,4 @@ In macOS Terminal app (and in [iTerm](https://iterm2.com/) emulator), perform <k
 
 [GNU Readline Documentation](https://www.gnu.org/software/bash/manual/bash.html#Readline-Interaction)
 
+[vi Editor Cheat Sheet](https://github.com/lana-20/fast-cli-nav/blob/main/vi_cheat_sheet.pdf)
