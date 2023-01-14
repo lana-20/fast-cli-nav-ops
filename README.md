@@ -12,10 +12,8 @@ Bash, a common shell, uses the Readline library to implement command line input 
 |<kbd>Ctrl</kbd>+<kbd>_</kbd>, <kbd>Ctrl</kbd>+<kbd>X</kbd>, <kbd>Ctrl</kbd>+<kbd>U</kbd>, or <kbd>Ctrl</kbd>+<kbd>/</kbd>|Undo the last editing command. You can undo all the way back to an empty line.|Essentials|
 |<kbd>Ctrl</kbd>+<kbd>A</kbd>|Move to the start of the line.|Movement|
 |<kbd>Ctrl</kbd>+<kbd>E</kbd>|Move to the end of the line.|Movement|
-|<kbd>⎇ Meta</kbd>+<kbd>F</kbd> or <kbd>⎇ Alt</kbd>+<kbd>F</kbd> or <kbd>⎇ Option</kbd>+<kbd>F</kbd>|Move forward a word, where a word is composed of letters and digits.|Movement|
+|<kbd>⎇ Meta</kbd>+<kbd>F</kbd>, <kbd>⎇ Alt</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd> or <kbd>⎇ Option</kbd>+<kbd>Shift</kbd>+<kbd>F</kbd>|Move forward a word, where a word is composed of letters and digits.|Movement|
 |<kbd>Ctrl</kbd>+<kbd>L</kbd>|Clear the screen, reprinting the current line at the top.|Movement|
-
-
 
 Readline can operate in two modes:
 
@@ -27,6 +25,8 @@ Switch Bash to use vi mode by typing:
     $ set -o vi
 
 In macOS Terminal app (and in [iTerm](https://iterm2.com/) emulator), perform <kbd>Option</kbd>+Click to move the cursor. The cursor will move to the clicked position. This also works inside _vim_.
+
+For iTerm, the <kbd>⎇ Meta</kbd> key doesn't work, until the following setting is configured __Preferences > Profiles > Default > Keys > Left/Right option key acts as +Esc__. 
 
 ----
 🔗
@@ -40,3 +40,5 @@ In macOS Terminal app (and in [iTerm](https://iterm2.com/) emulator), perform <k
 [GNU Readline Documentation](https://www.gnu.org/software/bash/manual/bash.html#Readline-Interaction)
 
 [vi Editor Cheat Sheet](https://github.com/lana-20/fast-cli-nav/blob/main/vi_cheat_sheet.pdf)
+
+[Stackoverflow Discussion](https://stackoverflow.com/questions/657130/fastest-ways-to-move-the-cursor-on-a-terminal-command-line)
